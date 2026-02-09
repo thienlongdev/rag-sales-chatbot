@@ -1,4 +1,4 @@
-\# RAG Sales Chatbot
+# RAG Sales Chatbot
 
 
 
@@ -18,7 +18,7 @@ RAG Sales Chatbot là một hệ thống chatbot bán hàng thông minh được
 
 
 
-\# Project Structure
+# Project Structure
 
 ```
 
@@ -50,37 +50,24 @@ rag-sales-chatbot/
 
 
 
-\# Tech Stack
-
-
+# Tech Stack
 
 * Language: Python 3.10+
 
-
-
 * LLM: OpenAI / compatible LLM API
-
-
 
 * Embeddings: Sentence-Transformers
 
-
-
 * Vector Database: MongoDB
-
-
-
+  
 * Routing: Semantic Router
-
-
 
 * Framework: Custom RAG implementation
 
 
+# Installation
 
-\# Installation
-
-\## Clone repository
+## Clone repository
 
 ```
 
@@ -90,7 +77,7 @@ cd rag-sales-chatbot
 
 ```
 
-\## Create virtual environment
+## Create virtual environment
 
 ```
 
@@ -102,7 +89,7 @@ venv\\Scripts\\activate      # Windows
 
 ```
 
-\## Install dependencies
+## Install dependencies
 
 ```
 
@@ -110,19 +97,19 @@ pip install -r requirements.txt
 
 ```
 
-\# Environment Variables
+# Environment Variables
 
-\## Tạo file .env:
-
-```
-
-MONGODB\_URI=your\_mongodb\_uri
-
-MEGALLM\_API\_KEY=your\_api\_key
+## Tạo file .env:
 
 ```
 
-\# Run the Chatbot
+MONGODB_URI=your_mongodb_uri
+
+MEGALLM_API_KEY=your_api_key
+
+```
+
+# Run the Chatbot
 
 ```
 
@@ -130,7 +117,7 @@ python app.py
 
 ```
 
-\## Ví dụ:
+## Ví dụ:
 
 ```
 
