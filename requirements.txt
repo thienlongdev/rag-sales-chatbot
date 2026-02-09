@@ -1,0 +1,69 @@
+# =====================
+# CORE
+# =====================
+python-dotenv
+pydantic
+pydantic-settings
+tqdm
+rich
+loguru
+tenacity
+requests
+httpx
+
+# =====================
+# LLM / AGENT
+# =====================
+openai
+langchain
+langchain-community
+langchain-openai
+langgraph
+llama-index
+
+# =====================
+# EMBEDDINGS / NLP
+# =====================
+torch
+transformers
+sentence-transformers
+tokenizers
+datasets
+accelerate
+scikit-learn
+
+# =====================
+# VECTOR DATABASES
+# =====================
+chromadb
+faiss-cpu
+qdrant-client
+
+# =====================
+# DATA / FILE LOADING
+# =====================
+numpy<2.0
+pandas
+pypdf
+pdfplumber
+python-docx
+unstructured
+beautifulsoup4
+lxml
+
+# =====================
+# API / BACKEND
+# =====================
+fastapi
+uvicorn
+python-multipart
+
+# =====================
+# DATABASES
+# =====================
+sqlalchemy
+psycopg2-binary
+pymongo
+supabase
+redis
+celery
