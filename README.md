@@ -24,7 +24,7 @@ RAG Sales Chatbot là một hệ thống chatbot bán hàng thông minh được
 
 rag-sales-chatbot/
 
-├── app.py                  # Entry point (chat interface)
+├── app.py                  # Entry point
 
 ├── rag.py                  # High-level RAG pipeline
 
@@ -34,7 +34,7 @@ rag-sales-chatbot/
 
 ├── embeddings.py           # Text embedding module
 
-├── vector\_db.py            # Vector database (MongoDB / FAISS)
+├── vector\_db.py            # Vector database
 
 ├── reranker.py             # Reranking retrieved documents
 
