@@ -28,13 +28,17 @@ rag-sales-chatbot/
 
 ├── rag.py                  # High-level RAG pipeline
 
-├── rag\_engine.py           # Core RAG logic
+├── rag_engine.py           # Core RAG logic
 
-├── semantic\_router/        # Route classification
+├── semantic_router/        # Route classification
+  │
+  ├── route.py      # Semantic intent classification module
+  ├── router.py     # Query routing & decision engine         
+  └── samples.py    # semantic prototypes
 
 ├── embeddings.py           # Text embedding module
 
-├── vector\_db.py            # Vector database
+├── vector_db.py            # Vector database
 
 ├── reranker.py             # Reranking retrieved documents
 
